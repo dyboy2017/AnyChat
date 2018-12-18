@@ -62,10 +62,10 @@
 
 
 	<!-- 页面底部 -->
-	<footer>
+	<// 主机IP地址>
 		AnyChat - 任意聊，任意撩！
 		<br/>
-		<a style="color:#FFF;text-decoration:none;" href="https://blog.dyboy.cn/" target="_blank"><i class="fa fa-github"></i>开源地址</a>
+		<a style="color:#FFF;text-decoration:none;" href="https://github.com/dyboy2017/AnyChat" target="_blank"><i class="fa fa-github"></i>开源地址</a>
 	</footer>
 	
 	
