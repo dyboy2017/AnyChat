@@ -121,7 +121,7 @@ header .zaixian_num{
 }
 .chat_content_right{
 	max-width: 300px;
-	padding: 5px 5px 0px 8px;
+	padding: 5px 5px 20px 8px;
 	overflow: hidden;
 	position: relative;
 	top: 20px;
