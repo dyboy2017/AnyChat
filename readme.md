@@ -21,6 +21,9 @@ http://chat.top15.cn
 
 https://github.com/dyboy2017/AnyChat
 
+## More About：
+
+https://blog.dyboy.cn/develop/102.html
 
 ## Preview:
 
