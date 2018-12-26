@@ -29,6 +29,12 @@ https://blog.dyboy.cn/develop/102.html
 
 ![界面预览图](https://upload-images.jianshu.io/upload_images/6661013-8679e4814175b74a.png)
 
+## Usage:
+
+1. 在有PHP（版本>5.3 均可）软件的主机上，在命令终端下运行: `php server_anychat.php`
+2. 双击访问同目录下的 `index.html`，或者放到网页运行环境下的 `www` 目录，访问主机IP或者域名即可
+3. 修改说明，若在本地环境运行需要修改 `index.html`中javascript部分的ws连接地址，改为本地的即可，不修改默认链连接远程服务器(`chat.dyboy.cn`)
+
 ## 更新记录:
 
 2019-12-20：
