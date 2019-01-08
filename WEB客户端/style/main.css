@@ -1,0 +1,211 @@
+
+
+*{
+	margin: 0px;
+	padding:0px;
+}
+
+
+body{ 
+	background-image: url("https://uploadbeta.com/api/pictures/random/?key=BingEverydayWallpaperPicture");
+}
+::-webkit-scrollbar-thumb{background-color:#3385ff; -webkit-border-radius:4px; /*border: 2px solid #fff; */}
+::-webkit-scrollbar-thumb:hover{background-color:#0566f7;}
+::-webkit-scrollbar{width:4px;}
+::-webkit-scrollbar-track-piece{background-color:#fff; -webkit-border-radius:0;}
+
+/*页面顶部*/
+header{
+	margin-top: 10px;
+	color: #fff;
+	font-size: 14px;
+	overflow: hidden;
+	padding: 20px;
+}
+header .logo{
+	float: left;
+	font-size: 28px;
+	font-weight: bold;
+}
+header .zaixian_num{
+	float: right;
+}
+#zaixian_num{
+	color: red;
+	font-size: 28px;
+	padding: 2px;
+	font-weight: bold;
+}
+
+/*聊天界面*/
+.chat_main{
+	margin: 20px auto;
+	width: 52%;
+	height: 530px;
+	background-color:rgba(255,255,255,.5);
+	border-radius: 10px;
+	/*box-shadow: 5px 5px 5px #666;*/
+
+}
+
+.chat_title{
+	color: #fff;
+	text-align: center;
+	padding: 10px 0px;
+	background-color: #24b9fa;
+}
+.small_title{
+	font-size:10px;
+	color:#fff;
+}
+.chat_box_left{
+	margin-top: 15px;
+	padding: 4px;
+	overflow: hidden;
+}
+.user_head_left{
+	float: left;
+}
+.user_head_left img{
+	width: 50px;
+    height: 50px;
+    border-radius: 100px;
+}
+.user_name_left{
+	/*float: left;*/
+	font-size: 12px;
+	padding-left: 5px;
+	color: #666;
+}
+.chat_content_left{
+	max-width: 300px;
+	padding: 5px 5px 10px 8px;
+	overflow: hidden;
+	position: relative;
+	/*top: 20px;*/
+	left: 6px;
+	color: #FFF;
+	background-color: #16a01f;
+	display: inline-block;
+	border-radius: 4px;
+}
+.syslog{
+	color: #fff;
+    text-align: center;
+    margin: 5px auto;
+    background-color: #6463638c;
+    text-align: center;
+    width: 50%;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+.chat_box_right{
+	margin-top: 15px;
+	padding: 4px;
+	overflow: hidden;
+  	text-align:right;
+}
+.user_head_right{
+	float: right;
+}
+.user_head_right img{
+	width: 50px;
+    height: 50px;
+    border-radius: 100px;
+}
+.user_name_right{
+	/*float: right;*/
+	font-size: 12px;
+	/*padding-left: 5px;*/
+	color: #666;
+}
+.chat_content_right{
+	max-width: 300px;
+	padding: 5px 5px 8px 8px;
+	overflow: hidden;
+	position: relative;
+  	text-align:left;
+	/*top: 20px;
+	float: right;*/
+	right: 6px;
+	color: #FFF;
+	background-color: #24b9fa;
+	display: inline-block;
+	border-radius: 4px;
+}
+
+
+.chat_bottom{
+	overflow: hidden;
+	width: 90%;
+	position: relative;
+	bottom:-30px;
+	/*bottom: 100px;
+	padding-left: 50px;*/
+	margin:0px auto;
+	text-align:center;
+}
+#btn_send:hover{
+	background-color:#0891cd;
+}
+
+input{
+	/*float: left;*/
+	width: 60%;
+	padding-left: 5px;
+	border:1px solid #fff;
+}
+
+button{
+	/*float: left;*/
+	background-color: #24b9fa;
+	color: #fff;
+	border:0px;
+	padding: 2px 20px;
+	margin-left: 5px;
+}
+
+
+.triangle{
+	position: relative;
+	top: 8px;
+	left: -40px;
+    width: 0px;
+    height: 0px;
+    border-width: 8px;
+    border-style: solid;
+    z-index: 999;
+    border-color: transparent red transparent transparent;
+}
+
+
+/*页面底部*/
+footer{
+	position: fixed;
+	width: 100%;
+	/*height: 50px;*/
+	bottom: 40px;
+	text-align: center;
+	color: #fff;
+	font-size: 14px;
+}
+
+/*自适应*/
+@media screen and (max-width: 970px) {
+    .chat_main{
+		width:75%;
+	}
+}
+@media screen and (max-width: 540px) {
+    .chat_main{
+		width:90%;
+	}
+	.chat_content_right{
+		max-width:240px;
+		padding: 5px 5px 20px 8px;
+	}
+	footer{
+		display:none;
+	}
+}
